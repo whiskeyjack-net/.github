@@ -16,6 +16,12 @@ Published on npm under `@whiskeyjack-net`, MIT licensed.
 | [`i18n`](https://www.npmjs.com/package/@whiskeyjack-net/i18n) | A react-i18next bootstrap with `<html lang>` / `dir` RTL sync. |
 | [`create-whiskeyjack`](https://www.npmjs.com/package/create-whiskeyjack) | Scaffolds a new app with all of the above wired. |
 
+One Rust crate ships beside them, on crates.io:
+
+| Crate | What it does |
+| --- | --- |
+| [`whiskeyjack-tauri`](https://crates.io/crates/whiskeyjack-tauri) | The backend half of the Tauri layer: the window-control layout a Linux desktop reports, the OS accent colour, and the desktop's own window-button icons. |
+
 ## Start here
 
 ```bash
@@ -47,7 +53,8 @@ outside the workshop.
 ## Status
 
 The packages are in daily use across the apps in this org, from habit trackers
-to menu bar utilities. The 0.x line is managed with changesets, so a minor
-version can add API. Interfaces are settling ahead of a 1.0.
+to menu bar utilities, and a handful of apps built on the published packages
+live in their own repos here. The 0.x line is managed with changesets, so a
+minor version can add API. Interfaces are settling ahead of a 1.0.
 
 More at [whiskeyjack.net](https://whiskeyjack.net).
